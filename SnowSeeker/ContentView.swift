@@ -7,31 +7,27 @@
 
 import SwiftUI
 
-struct User: Identifiable {
-    var id = "Taylor Swift"
-}
-
 struct ContentView: View {
-    @State private var selectedUser: User? = nil
-    @State private var isShowingUser = false
+    @State private var searchText = ""
+    let allNames = ["Alex", "Beatice", "Carla", "Dylan"]
+
+    var filteredNames: [String] {
+        if searchText.isEmpty {
+            allNames
+        } else {
+            allNames.filter { $0.localizedStandardContains(searchText) }
+        }
+    }
 
     var body: some View {
-        NavigationSplitView(preferredCompactColumn: .constant(.detail)) {
-            NavigationLink("Primary") {
-                Text("New view")
+        NavigationStack {
+            List(filteredNames, id: \.self) { name in
+                Text(name)
             }
-        } detail: {
-            Button("Tap Me") {
-                selectedUser = User()
-                isShowingUser = true
-
-            }
-            .sheet(item: $selectedUser) { user in
-                Text(user.id)
-            }
-            
+            .searchable(text: $searchText, prompt: "Look for something")
+            .navigationTitle("Searching")
         }
-        .navigationSplitViewStyle(.balanced)    }
+    }
 }
 
 #Preview {
