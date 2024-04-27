@@ -53,7 +53,6 @@
 		BA77A17D2BD855F600B74CCB = {
 			isa = PBXGroup;
 			children = (
-				BA77A1A72BDD349400B74CCB /* Favorites.swift */,
 				BA77A1882BD855F600B74CCB /* SnowSeeker */,
 				BA77A1872BD855F600B74CCB /* Products */,
 			);
@@ -70,6 +69,7 @@
 		BA77A1882BD855F600B74CCB /* SnowSeeker */ = {
 			isa = PBXGroup;
 			children = (
+				BA77A1A72BDD349400B74CCB /* Favorites.swift */,
 				BA77A1892BD855F600B74CCB /* SnowSeekerApp.swift */,
 				BA77A18B2BD855F600B74CCB /* ContentView.swift */,
 				BA77A19D2BD9A48C00B74CCB /* WelcomeView.swift */,
