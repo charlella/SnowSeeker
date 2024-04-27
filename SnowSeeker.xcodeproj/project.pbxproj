@@ -18,6 +18,7 @@
 		BA77A1A02BD9A71300B74CCB /* ResortView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77A19F2BD9A71300B74CCB /* ResortView.swift */; };
 		BA77A1A22BD9AC0800B74CCB /* SkiDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77A1A12BD9AC0800B74CCB /* SkiDetailsView.swift */; };
 		BA77A1A42BD9AC7800B74CCB /* ResortDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77A1A32BD9AC7800B74CCB /* ResortDetailsView.swift */; };
+		BA77A1A62BDD2E9600B74CCB /* Facility.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA77A1A52BDD2E9600B74CCB /* Facility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		BA77A19F2BD9A71300B74CCB /* ResortView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortView.swift; sourceTree = "<group>"; };
 		BA77A1A12BD9AC0800B74CCB /* SkiDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkiDetailsView.swift; sourceTree = "<group>"; };
 		BA77A1A32BD9AC7800B74CCB /* ResortDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortDetailsView.swift; sourceTree = "<group>"; };
+		BA77A1A52BDD2E9600B74CCB /* Facility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				BA77A1972BD9A1C700B74CCB /* resorts.json */,
 				BA77A1992BD9A1F500B74CCB /* Resort.swift */,
 				BA77A19F2BD9A71300B74CCB /* ResortView.swift */,
+				BA77A1A52BDD2E9600B74CCB /* Facility.swift */,
 				BA77A1A32BD9AC7800B74CCB /* ResortDetailsView.swift */,
 				BA77A1A12BD9AC0800B74CCB /* SkiDetailsView.swift */,
 				BA77A19B2BD9A25100B74CCB /* Bundle-Decodable.swift */,
@@ -162,6 +165,7 @@
 				BA77A19E2BD9A48C00B74CCB /* WelcomeView.swift in Sources */,
 				BA77A1A22BD9AC0800B74CCB /* SkiDetailsView.swift in Sources */,
 				BA77A1A42BD9AC7800B74CCB /* ResortDetailsView.swift in Sources */,
+				BA77A1A62BDD2E9600B74CCB /* Facility.swift in Sources */,
 				BA77A18C2BD855F600B74CCB /* ContentView.swift in Sources */,
 				BA77A19A2BD9A1F500B74CCB /* Resort.swift in Sources */,
 				BA77A1A02BD9A71300B74CCB /* ResortView.swift in Sources */,
